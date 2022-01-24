@@ -1,0 +1,15 @@
+#Use of this page is optional. If you use code here, make sure either import page3 or from page3 import * appear on your main.py page.
+
+Noun1 = input("Enter a living thing: ")
+place = input("Enter a place: ")
+Adj1 = input("Enter an adjective: ")
+Noun2 = input("Enter a noun: ")
+Adj2 = input("Enter another adjective: ")
+Color1 = input("Enter a color: ")
+Color2 = input("Enter a color: ")
+name = input("Enter a name: ")
+sentence1 = ('In a ' + place + ' in the ground there lived a ' + Noun1 + '. ')
+sentence2 = ('Not a nasty, ' + Adj1 + ', ' + Adj2 + ' ' + place + ', filled with the ends of ' + Noun2 + ' and an oozy smell, nor yet a dry, bare, sandy ' + place + ' with nothing in it to sit down on or to eat: it was a ' + Noun1 +'\'s' + ' ' + place + ', and that means comfort. ')
+sentence3 = ('It had a perfectly round door like a porthole, painted ' + Color1 + ', with a shiny ' + Color2 + ' brass knob in the exact middle. ')
+sentence4 = ('The ' + Noun1 + ' who lived here was a very well-to-do ' + Noun1 + ', and his name was ' + name + '.')
+print(sentence1 + sentence2 + sentence3 + sentence4)
